@@ -13,5 +13,5 @@ You are eligible to join the private repository when you meet the following crit
 
  1. You have an active GitHub user account.
  2. You have read and understood about the philosophy of [Free Softwares](https://www.gnu.org/philosophy/free-sw.html).
- 3. You have given funds to one of the Mecha’s projects for at least 50 USD.
+ 3. You have donated to one of the Mecha’s projects for up to 50 USD.
  4. You are willing to join as a member of the private repository.
