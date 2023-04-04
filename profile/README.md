@@ -1,3 +1,8 @@
+Mecha CMS
+=========
+
+Minimalist content management system.
+
 About
 -----
 
