@@ -1,4 +1,4 @@
-Mecha&rsquo;s Global GitHub Profile
-===================================
+Mecha’s Global GitHub Profile
+=============================
 
-This is the profile details of the organization.
+This is the public details of the [organization](https://github.com/mecha-cms).
