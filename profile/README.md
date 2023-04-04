@@ -1,9 +1,15 @@
+About
+-----
+
 Mecha is a minimalist web content management system built to evolve. We have core system that is no more than 500 KB in
 size, and we’ll keep it under that size forever. If you’ve been around for a while, you’ll probably have a hard time
 finding meaningful feature additions to Mecha from time to time, as the main focus of Mecha is to keep things simple. It
 just provides a way for other features to come in without having to change the system.
 
 ![Decoration][1]
+
+Mission
+-------
 
 The world has been filled with social media services that are no longer safe to share personal matters. I want to grow
 back the interest of future generations to write journals on the internet. Mecha is a flat-file content management
