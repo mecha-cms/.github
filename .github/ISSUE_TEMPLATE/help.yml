@@ -1,7 +1,13 @@
 body:
-  - type: markdown
-    attributes:
+  - attributes:
       value: |
         Please don not write personal problems in this area, use the [discussion](https://github.com/mecha-cms/mecha/discussions) feature instead.
+    type: markdown
+  - attributes:
+      label: Agreement
+      options:
+        - label: I understand this rule and am willing to comply with it.
+          required: true
+    type: checkboxes
 description: I really need your help regarding this application, urgently!
 name: Help Wanted
