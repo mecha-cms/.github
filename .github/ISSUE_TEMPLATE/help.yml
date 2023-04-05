@@ -1,7 +1,7 @@
 body:
   - attributes:
       value: |
-        Please don not write personal problems in this area, use the [discussion](https://github.com/mecha-cms/mecha/discussions) feature instead.
+        **Please don not write personal problems in this area, use the [discussion](https://github.com/mecha-cms/mecha/discussions) feature instead!** By submitting this issue, it will be removed by me immediately.
     type: markdown
   - attributes:
       label: Agreement
