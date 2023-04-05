@@ -39,7 +39,22 @@ body:
     type: dropdown
   - attributes:
       description: Copy the log output that appears in the `.\engine\log\error` file then paste it there. Please copy the log lines with the most recent date only.
-      label: Error log
+      label: Error logs of the core application
+      render: shell
+    type: textarea
+  - attributes:
+      description: Copy the log output that appears in the `.\engine\log\error-x` file then paste it there. Please copy the log lines with the most recent date only.
+      label: Error log of the extensions
+      render: shell
+    type: textarea
+  - attributes:
+      description: Copy the log output that appears in the `.\engine\log\error-y` file then paste it there. Please copy the log lines with the most recent date only.
+      label: Error log of the layouts
+      render: shell
+    type: textarea
+  - attributes:
+      description: Copy the log output that appears in the `.\error_log` file then paste it there. Please copy the log lines with the most recent date only.
+      label: General error logs (if the application fails to set a custom error log path, then the error log will usually appear in this location)
       render: shell
     type: textarea
 description: There must be something wrong and it really bothers you.
