@@ -1,0 +1,7 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please don not write personal problems in this area, use the [discussion](https://github.com/mecha-cms/mecha/discussions) feature instead.
+description: I really need your help regarding this application, urgently!
+name: Help Wanted
