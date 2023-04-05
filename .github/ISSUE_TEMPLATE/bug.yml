@@ -1,7 +1,7 @@
 body:
   - attributes:
       description: Before you write something like “my web page goes blank” or “there is a content encoding error message appears in my browser”, make sure that you have done all of these tasks.
-      label: Requirements
+      label: Ensure that your issue is possible to solve by doing these tasks
       options:
         - label: I am using application packages whose source code is not optimized for production (source code is not minified).
           required: true
@@ -12,18 +12,18 @@ body:
     type: checkboxes
   - attributes:
       description: Also tell me, what did you expect to happen?
-      label: Describe your problem in the field below
+      label: Describe your issue in the field below
       placeholder: Your problems and expectations.
     type: textarea
     validations:
       required: true
   - attributes:
-      description: What version of the application are you running?
-      label: Version
+      description: What version of the package are you running?
+      label: Package version
       options:
-        - Development version (application on the `main` branch)
-        - Stable release version (applications with semantic version labels such as `v1.0.0`)
-        - Unstable release version (applications with semantic version labels but marked as a version release that isn’t ready for production)
+        - Development version (package on the `main` branch)
+        - Stable release version (package with semantic version label such as `v1.0.0`)
+        - Unstable release version (package with semantic version label but marked as a version release that isn’t ready for production)
     type: dropdown
     validations:
       required: true
@@ -39,22 +39,22 @@ body:
     type: dropdown
   - attributes:
       description: Copy the log output that appears in the `.\engine\log\error` file then paste it there. Please copy the log lines with the most recent date only.
-      label: Error logs of the core application
+      label: Error logs of the core application if any
       render: shell
     type: textarea
   - attributes:
       description: Copy the log output that appears in the `.\engine\log\error-x` file then paste it there. Please copy the log lines with the most recent date only.
-      label: Error log of the extensions
+      label: Error log of the extension if any
       render: shell
     type: textarea
   - attributes:
       description: Copy the log output that appears in the `.\engine\log\error-y` file then paste it there. Please copy the log lines with the most recent date only.
-      label: Error log of the layouts
+      label: Error log of the layout if any
       render: shell
     type: textarea
   - attributes:
       description: Copy the log output that appears in the `.\error_log` file then paste it there. Please copy the log lines with the most recent date only.
-      label: General error logs (if the application fails to set a custom error log path, then the error log will usually appear in this location)
+      label: General error logs if any (if the application fails to set a custom error log path, then the error log will usually appear in this location)
       render: shell
     type: textarea
 description: There must be something wrong and it really bothers you.
