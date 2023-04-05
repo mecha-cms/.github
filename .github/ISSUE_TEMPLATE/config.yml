@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - about: Feel free to ask questions here.
+    name: Documentations
+    url: https://dev.mecha-cms.com/reference/1
+  - about: Feel free to ask questions here.
+    name: Questions
+    url: https://github.com/mecha-cms/mecha/discussions
+  - about: Get various kinds of extensions and layouts here.
+    name: Stores
+    url: https://dev.mecha-cms.com/store/1
