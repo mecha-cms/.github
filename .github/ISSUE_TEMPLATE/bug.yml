@@ -1,0 +1,47 @@
+body:
+  - attributes:
+      description: Before you write something like “my web page goes blank” or “there is a content encoding error message appears in my browser”, make sure that you have done all of these tasks.
+      options:
+        - label: I am using application packages whose source code is not optimized for production (source code is not minified).
+          required: true
+        - label: I have activated the test mode by changing the `TEST` constant value to `true` in the `.\index.php` file.
+          required: true
+        - label: I have made sure that there are files named `error` or `error-x` or `error-y` in the `.\engine\log` folder.
+          required: true
+      type: checkboxes
+  - attributes:
+      description: Also tell me, what did you expect to happen?
+      label: Describe your problem in the field below
+      placeholder: Your problems and expectations.
+      value: ""
+    type: textarea
+    validations:
+      required: true
+  - attributes:
+      label: Version
+      description: What version of the application are you running?
+      options:
+        - Development version (application on the `main` branch)
+        - Stable release version (applications with semantic version labels such as `v1.0.0`)
+        - Unstable release version (applications with semantic version labels but marked as a version release that isn’t ready for production)
+    type: dropdown
+    validations:
+      required: true
+  - attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Chrome
+        - Edge
+        - Firefox
+        - Safari
+        - Others
+      type: dropdown
+  - attributes:
+      description: Copy the log output that appears in the `.\engine\log\error` file then paste it there. Please copy the log lines with the most recent date only.
+      label: Error log
+      render: shell
+description: There must be something wrong and it really bothers you.
+labels: [choked]
+name: Bug Report
+title: ""
