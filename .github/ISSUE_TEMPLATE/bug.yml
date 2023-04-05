@@ -8,12 +8,12 @@ body:
           required: true
         - label: I have made sure that there are files named `error` or `error-x` or `error-y` in the `.\engine\log` folder.
           required: true
+    label: Requirements
     type: checkboxes
   - attributes:
       description: Also tell me, what did you expect to happen?
       label: Describe your problem in the field below
       placeholder: Your problems and expectations.
-      value: ""
     type: textarea
     validations:
       required: true
