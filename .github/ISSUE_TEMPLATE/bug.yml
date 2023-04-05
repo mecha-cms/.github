@@ -58,5 +58,5 @@ body:
       render: shell
     type: textarea
 description: There must be something wrong and it really bothers you.
-labels: [choked]
+labels: [bug, choked]
 name: Bug Report
