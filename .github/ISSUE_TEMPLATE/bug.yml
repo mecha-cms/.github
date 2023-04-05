@@ -8,7 +8,7 @@ body:
           required: true
         - label: I have made sure that there are files named `error` or `error-x` or `error-y` in the `.\engine\log` folder.
           required: true
-      type: checkboxes
+    type: checkboxes
   - attributes:
       description: Also tell me, what did you expect to happen?
       label: Describe your problem in the field below
@@ -36,12 +36,12 @@ body:
         - Firefox
         - Safari
         - Others
-      type: dropdown
+    type: dropdown
   - attributes:
       description: Copy the log output that appears in the `.\engine\log\error` file then paste it there. Please copy the log lines with the most recent date only.
       label: Error log
       render: shell
+    type: textarea
 description: There must be something wrong and it really bothers you.
 labels: [choked]
 name: Bug Report
-title: ""
