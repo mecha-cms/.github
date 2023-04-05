@@ -4,7 +4,7 @@ body:
         Please don not write personal problems in this area, use the [discussion](https://github.com/mecha-cms/mecha/discussions) feature instead!
     type: markdown
   - attributes:
-      description: By submitting this issue, it will be removed by me immediately.
+      description: By submitting this type of issue, it will be removed by me immediately.
       label: Agreement
       options:
         - label: I understand this rule and am willing to comply with it.
