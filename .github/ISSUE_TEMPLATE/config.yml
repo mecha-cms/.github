@@ -6,6 +6,6 @@ contact_links:
   - about: Feature as a service.
     name: Feature Request
     url: https://github.com/mecha-cms/bounty/issues/new?template=request.yml
-  - about: Feel free to ask questions here.
+  - about: You really need my help regarding this application, urgently!
     name: Help Wanted
-    url: https://github.com/mecha-cms/mecha/discussions
+    url: https://github.com/orgs/mecha-cms/discussions/new?category=q-a
