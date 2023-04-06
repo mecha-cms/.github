@@ -34,6 +34,8 @@ body:
         - Stable release version (package with semantic version label such as `v1.0.0`)
         - Unstable release version (package with semantic version label but marked as a version release that isn’t ready for production)
     type: dropdown
+    validations:
+      required: true
   - attributes:
       description: What stable/unstable version of the package are you running?
       label: Package version number
@@ -49,6 +51,8 @@ body:
         - Safari
         - Others
     type: dropdown
+    validations:
+      required: true
   - attributes:
       description: Copy the log output that appears in the `.\engine\log\error` file then paste it there. Please copy the log lines with the most recent date only.
       label: Error logs of the core application if any
