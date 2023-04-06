@@ -11,6 +11,14 @@ body:
           required: true
     type: checkboxes
   - attributes:
+      description: Please refer to [this guide](https://dev.mecha-cms.com/reference/3.0/start).
+      label: What installation method did you use?
+      options:
+        - Composer
+        - File
+        - Git
+        - Package
+  - attributes:
       description: Also tell me, what did you expect to happen?
       label: Describe your issue in the field below
       placeholder: Your problems and expectations.
@@ -24,9 +32,11 @@ body:
         - Development version (package on the `main` branch)
         - Stable release version (package with semantic version label such as `v1.0.0`)
         - Unstable release version (package with semantic version label but marked as a version release that isn’t ready for production)
-    type: dropdown
-    validations:
-      required: true
+  - attributes:
+      description: What stable/unstable version of the package are you running?
+      label: Package version number
+      placeholder: '1.0.0'
+    type: input
   - attributes:
       label: What browsers are you seeing the problem on?
       multiple: true
@@ -40,21 +50,25 @@ body:
   - attributes:
       description: Copy the log output that appears in the `.\engine\log\error` file then paste it there. Please copy the log lines with the most recent date only.
       label: Error logs of the core application if any
+      placeholder: Error logs goes here.
       render: shell
     type: textarea
   - attributes:
       description: Copy the log output that appears in the `.\engine\log\error-x` file then paste it there. Please copy the log lines with the most recent date only.
       label: Error log of the extension if any
+      placeholder: Error logs goes here.
       render: shell
     type: textarea
   - attributes:
       description: Copy the log output that appears in the `.\engine\log\error-y` file then paste it there. Please copy the log lines with the most recent date only.
       label: Error log of the layout if any
+      placeholder: Error logs goes here.
       render: shell
     type: textarea
   - attributes:
       description: Copy the log output that appears in the `.\error_log` file then paste it there. Please copy the log lines with the most recent date only.
       label: General error logs if any (if the application fails to set a custom error log path, then the error log will usually appear in this location)
+      placeholder: Error logs goes here.
       render: shell
     type: textarea
 description: There must be something wrong and it really bothers you.
