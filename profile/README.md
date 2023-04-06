@@ -1,6 +1,8 @@
 Mecha CMS
 =========
 
+![Code Size][2] ![License][3]
+
 ![Decoration][1]
 
 About
@@ -19,12 +21,6 @@ back the interest of future generations to write journals on the internet. Mecha
 system that carries the concept of minimalism. This content management system ensures that you have complete control
 over your content.
 
-![Code Size][2] ![License][3]
-
- [1]: https://user-images.githubusercontent.com/1669261/193995098-3d4ff7c3-6d49-4d77-86e6-ca3ca0039d3f.png
- [2]: https://img.shields.io/github/languages/code-size/mecha-cms/mecha?color=%23444&style=for-the-badge
- [3]: https://img.shields.io/github/license/mecha-cms/mecha?color=%23444&style=for-the-badge
-
 Donation
 --------
 
@@ -38,3 +34,7 @@ You are eligible to join the private repository when you meet the following crit
  2. You have read and understood about the philosophy of [Free Softwares](https://www.gnu.org/philosophy/free-sw.html).
  3. You have donated to one of the Mecha’s projects for up to 50 USD.
  4. You are willing to join as a member of the private repository.
+
+ [1]: https://user-images.githubusercontent.com/1669261/193995098-3d4ff7c3-6d49-4d77-86e6-ca3ca0039d3f.png
+ [2]: https://img.shields.io/github/languages/code-size/mecha-cms/mecha?color=%23444&style=for-the-badge
+ [3]: https://img.shields.io/github/license/mecha-cms/mecha?color=%23444&style=for-the-badge
