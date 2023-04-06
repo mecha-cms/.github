@@ -1,11 +1,11 @@
 blank_issues_enabled: true
 contact_links:
-  - about: Start learning this application.
+  - about: Learn more.
     name: Documentations
     url: https://dev.mecha-cms.com/reference/1
+  - about: Feature as a service.
+    name: Feature Request
+    url: https://github.com/mecha-cms/bounty/issues/new?template=request.yml
   - about: Feel free to ask questions here.
-    name: Questions
+    name: Help Wanted
     url: https://github.com/mecha-cms/mecha/discussions
-  - about: Get various kinds of extensions and layouts here.
-    name: Stores
-    url: https://dev.mecha-cms.com/store/1
