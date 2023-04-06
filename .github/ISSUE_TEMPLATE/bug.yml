@@ -33,6 +33,7 @@ body:
         - Development version (package on the `main` branch)
         - Stable release version (package with semantic version label such as `v1.0.0`)
         - Unstable release version (package with semantic version label but marked as a version release that isn’t ready for production)
+    type: dropdown
   - attributes:
       description: What stable/unstable version of the package are you running?
       label: Package version number
