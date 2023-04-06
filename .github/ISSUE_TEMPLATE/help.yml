@@ -10,5 +10,5 @@ body:
         - label: I understand this rule and am willing to comply with it.
           required: true
     type: checkboxes
-description: I really need your help regarding this application, urgently!
+description: You really need my help regarding this application, urgently!
 name: Help Wanted
