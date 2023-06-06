@@ -2,7 +2,7 @@ blank_issues_enabled: true
 contact_links:
   - about: Learn more.
     name: Documentations
-    url: https://dev.mecha-cms.com/reference/1
+    url: https://mecha-cms.com/reference/1
   - about: Feature as a service.
     name: Feature Request
     url: https://github.com/mecha-cms/bounty/issues/new?template=request.yml

@@ -8,8 +8,8 @@ Mecha CMS
 About
 -----
 
-Mecha is a minimalist web content management system built to evolve. We have a core system that is no more than 500 KB
-in size, and we’ll keep it under that size forever. If you’ve been around for a while, you’ll probably have a hard time
+Mecha is a minimalist web content management system built to evolve. We have a core system that is less than 500 KB in
+size, and we’ll keep it under that size forever. If you’ve been around for a while, you’ll probably have a hard time
 finding meaningful feature additions to Mecha from time to time, as the main focus of Mecha is to keep things simple. It
 just provides a way for other features to come in without having to change the system.
 

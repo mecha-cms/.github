@@ -11,7 +11,7 @@ body:
           required: true
     type: checkboxes
   - attributes:
-      description: Please refer to [this guide](https://dev.mecha-cms.com/reference/3.0/start).
+      description: Please refer to [this guide](https://mecha-cms.com/reference/3.x/start).
       label: What installation method did you use?
       options:
         - Composer
