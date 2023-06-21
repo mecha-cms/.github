@@ -13,8 +13,8 @@ size, and we’ll keep it under that size forever. If you’ve been around for a
 finding meaningful feature additions to Mecha from time to time, as the main focus of Mecha is to keep things simple. It
 just provides a way for other features to come in without having to change the system.
 
-Mission
--------
+Motivation
+----------
 
 The world has been filled with social media services that are no longer safe to share personal matters. I want to grow
 back the interest of future generations to write journals on the internet. This content management system ensures that
