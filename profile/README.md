@@ -20,8 +20,8 @@ The world has been filled with social media services that are no longer safe to 
 back the interest of future generations to write journals on the internet. This content management system ensures that
 you have complete control over your content.
 
-Donation
---------
+Support
+-------
 
 Donors who meet the criteria are invited to join [the private repository](https://github.com/mecha-cms/site). Through
 this repository, you can monitor progress and contribute to the source code of the official web site so that it can be
